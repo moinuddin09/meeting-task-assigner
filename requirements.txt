@@ -1,0 +1,8 @@
+openai-whisper
+pydub
+spacy
+dateparser
+fuzzywuzzy
+python-Levenshtein
+pytest
+tqdm

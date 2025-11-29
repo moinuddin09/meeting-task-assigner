@@ -1,0 +1,112 @@
+{
+  "meeting_file": "transcript.txt",
+  "extracted_at": "2025-11-29T04:22:22.952745",
+  "transcript_preview": "Hi everyone, let's discuss this week's priorities. Sockshee, we need someone to fix the critical login bug that users reported yesterday. This needs to be done by tomorrow evening since it's blocking users. Also, the database performance is really slow. Mo hit your good with backend optimization, right? We should tackle this by end of this week. It's affecting the user experience. And we need to update the API documentation before Friday's release. This is high priority. Oh, and someone should design the new onboarding screens for the next sprint. Arjun, didn't you work on UI designs last month? This can wait until next Monday. One more thing, we need to write unit tests for the payment module. This depends on the login bug fix being completed first. So let's plan this for Wednesday.",
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Hi everyone, let's discuss this week's priorities.",
+      "description": "Hi everyone, let's discuss this week's priorities.",
+      "assigned_to": null,
+      "deadline": null,
+      "deadline_phrase": null,
+      "priority": "Medium",
+      "dependencies": [],
+      "reasoning": "no_match"
+    },
+    {
+      "id": 2,
+      "title": "Fix the critical login bug that users reported yesterday",
+      "description": "Sockshee, we need someone to fix the critical login bug that users reported yesterday. This needs to be done by tomorrow evening since it's blocking users.",
+      "assigned_to": "Sakshi",
+      "deadline": null,
+      "deadline_phrase": null,
+      "priority": "Critical",
+      "dependencies": [],
+      "reasoning": "vocative_explicit (Sockshee, score=57)"
+    },
+    {
+      "id": 3,
+      "title": "Tackle this by end of this week",
+      "description": "We should tackle this by end of this week. It's affecting the user experience. And we need to update the API documentation before Friday's release.",
+      "assigned_to": "Mohit",
+      "deadline": "2025-11-30T23:59:00",
+      "deadline_phrase": "end of this week",
+      "priority": "High",
+      "dependencies": [],
+      "reasoning": "heuristic_role:backend"
+    },
+    {
+      "id": 4,
+      "title": "Update the API documentation before Friday's release",
+      "description": "And we need to update the API documentation before Friday's release. This is high priority.",
+      "assigned_to": "Mohit",
+      "deadline": null,
+      "deadline_phrase": null,
+      "priority": "High",
+      "dependencies": [],
+      "reasoning": "heuristic_role:backend"
+    },
+    {
+      "id": 5,
+      "title": "Design the new onboarding screens for the next sprint",
+      "description": "Oh, and someone should design the new onboarding screens for the next sprint.",
+      "assigned_to": "Arjun",
+      "deadline": null,
+      "deadline_phrase": null,
+      "priority": "Medium",
+      "dependencies": [],
+      "reasoning": "heuristic_role:ui/ux"
+    },
+    {
+      "id": 6,
+      "title": "didn't you work on UI designs last month? This can wait until next Monday.",
+      "description": "Arjun, didn't you work on UI designs last month? This can wait until next Monday.",
+      "assigned_to": "Arjun",
+      "deadline": null,
+      "deadline_phrase": null,
+      "priority": "Medium",
+      "dependencies": [],
+      "reasoning": "vocative_explicit (Arjun, score=100)"
+    },
+    {
+      "id": 7,
+      "title": "Write unit tests for the payment module",
+      "description": "One more thing, we need to write unit tests for the payment module. This depends on the login bug fix being completed first. So let's plan this for Wednesday.",
+      "assigned_to": "Lata",
+      "deadline": null,
+      "deadline_phrase": null,
+      "priority": "Medium",
+      "dependencies": [
+        2,
+        8
+      ],
+      "reasoning": "skill_match:unit tests"
+    },
+    {
+      "id": 8,
+      "title": "Fix being completed first",
+      "description": "This depends on the login bug fix being completed first. So let's plan this for Wednesday.",
+      "assigned_to": null,
+      "deadline": null,
+      "deadline_phrase": null,
+      "priority": "Medium",
+      "dependencies": [
+        2,
+        7
+      ],
+      "reasoning": "no_match"
+    },
+    {
+      "id": 9,
+      "title": "Plan this for Wednesday",
+      "description": "So let's plan this for Wednesday.",
+      "assigned_to": null,
+      "deadline": null,
+      "deadline_phrase": null,
+      "priority": "Medium",
+      "dependencies": [],
+      "reasoning": "no_match"
+    }
+  ]
+}
